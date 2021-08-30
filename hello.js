@@ -1,5 +1,6 @@
-function hello() {
-  return "Hello!";
+function sayName() {
+  // needs to return your GitHub username 
+  return "My GitHub Username"
 }
 
-module.exports = hello;
+module.exports = sayName;

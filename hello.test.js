@@ -1,5 +1,5 @@
-const hello = require('./hello');
+const sayName = require('./hello');
 
 test('outputs the correct string', () => {
-  expect(hello()).toBe("Hello world!");
+  expect(sayName()).toBe(process.env.STUDENTNAME);
 });

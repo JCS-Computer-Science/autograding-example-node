@@ -1,5 +1,5 @@
-const sayName = require('./hello');
+const getTeacherName = require('./hello');
 
 test('outputs the correct string', () => {
-  expect(sayName()).toBe(process.env.STUDENTNAME);
+  expect(getTeacherName()).toBe("Mr. Wilson");
 });

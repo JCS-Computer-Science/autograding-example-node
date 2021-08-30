@@ -1,6 +1,5 @@
-function sayName() {
-  // needs to return your GitHub username 
-  return "My GitHub Username"
+function getTeacherName() {
+  return "Mr. Beast"
 }
 
-module.exports = sayName;
+module.exports = getTeacherName;
